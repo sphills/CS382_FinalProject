@@ -6,9 +6,14 @@ namespace Unity.FPS.Gameplay
 {
     public class PlayerInfo : MonoBehaviour
     {
-        [Header("Points")]
-        [Tooltip("The cost in points a player must pay to open the door.")]
+        [Header("Total Points")]
+        [Tooltip("The total amount of points the player has had for the duration of the current session.")]
+        public int TotalPlayerPoints = 500;
+
+        [Header("Current Points")]
+        [Tooltip("The current amount of points the player has.")]
         public int PlayerPoints = 500;
+
         void Awake()
         {
         }
@@ -23,6 +28,12 @@ namespace Unity.FPS.Gameplay
 
         public int GetPlayerPoints() {
             return PlayerPoints;
+        }
+
+        public void DeductPlayerPoints(int deductionAmount) {
+            if (PlayerPoints - deductionAmount >= 0) {
+                PlayerPoints -= deductionAmount;
+            }
         }
     }
 }
