@@ -21,7 +21,7 @@ namespace Unity.FPS.Gameplay
         {
         }
 
-        int GetPlayerPoints() {
+        public int GetPlayerPoints() {
             return PlayerPoints;
         }
     }

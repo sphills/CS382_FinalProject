@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.FPS.Gameplay;
 using UnityEngine;
 
 public class BuyableDoor : MonoBehaviour
@@ -22,6 +23,8 @@ public class BuyableDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Hello there!");
+        PlayerInfo playerInfo = other.GetComponent<PlayerInfo>();
+        //Debug.Log($"The player has {(Player) other.GetComponent<PlayerInfo>().GetPlayerPoints()}");
+        Debug.Log($"The player has { playerInfo.GetPlayerPoints() } and { (playerInfo.GetPlayerPoints() > DoorPrice ? "can" : "cannot") } buy this door");
     }
 }
