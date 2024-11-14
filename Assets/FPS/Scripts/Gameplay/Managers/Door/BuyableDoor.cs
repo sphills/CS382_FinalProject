@@ -24,7 +24,6 @@ public class BuyableDoor : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         PlayerInfo playerInfo = other.GetComponent<PlayerInfo>();
-        //Debug.Log($"The player has {(Player) other.GetComponent<PlayerInfo>().GetPlayerPoints()}");
         Debug.Log($"The player has { playerInfo.GetPlayerPoints() } and { (playerInfo.GetPlayerPoints() > DoorPrice ? "can" : "cannot") } buy this door");
     }
 }
