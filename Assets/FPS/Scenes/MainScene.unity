@@ -172,7 +172,7 @@ PrefabInstance:
     - target: {fileID: 5098506964964395400, guid: 3bdc02edda4a960409dbc7c1e97f25a4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.38
+      value: 0.499
       objectReference: {fileID: 0}
     - target: {fileID: 5098506964964395400, guid: 3bdc02edda4a960409dbc7c1e97f25a4,
         type: 3}
@@ -3548,7 +3548,7 @@ PrefabInstance:
     - target: {fileID: 4896301704211341265, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: PlayerPoints
-      value: 1501
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 7253983127304857660, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
@@ -5411,6 +5411,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1315839542190839936, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: DefeatSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 129a0207cbfc2a440ac1b1658cbc2907, type: 3}
     - target: {fileID: 1315839542190839937, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_RootOrder
@@ -5516,6 +5521,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4160549848294572208, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ec72fca32ae70b14f87b226512c351d5, type: 3}
     - target: {fileID: 6277484531393056600, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_textInfo.lineCount

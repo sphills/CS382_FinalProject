@@ -380,6 +380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8746678193447392789}
+  - component: {fileID: 4896301704211341265}
   - component: {fileID: 6145509692674227223}
   - component: {fileID: 814417836257332542}
   - component: {fileID: 1360575517897679518}
@@ -390,7 +391,6 @@ GameObject:
   - component: {fileID: 4205022973215787166}
   - component: {fileID: 1272397862697293493}
   - component: {fileID: 1661717823}
-  - component: {fileID: 4896301704211341265}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -417,6 +417,20 @@ Transform:
   - {fileID: 1403933375132323333}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4896301704211341265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7253983127304857660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858087d0b4745a74293e00a64e80895c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalPlayerPoints: 500
+  PlayerPoints: 500
 --- !u!114 &6145509692674227223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,19 +811,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4896301704211341265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7253983127304857660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 858087d0b4745a74293e00a64e80895c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerPoints: 500
 --- !u!1 &7383874627095517793
 GameObject:
   m_ObjectHideFlags: 0
