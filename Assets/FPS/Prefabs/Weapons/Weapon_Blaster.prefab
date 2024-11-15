@@ -207,9 +207,9 @@ MonoBehaviour:
   EjectionPort: {fileID: 0}
   ShellCasingEjectionForce: 2
   ShellPoolSize: 1
-  AmmoReloadRate: 16
+  AmmoReloadRate: 30
   AmmoReloadDelay: 1
-  MaxAmmo: 16
+  MaxAmmo: 30
   AutomaticReleaseOnCharged: 0
   MaxChargeDuration: 2
   AmmoUsedOnStartCharge: 1
@@ -1445,11 +1445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687971008595054, guid: ad69abc8597c85e419faf2f56af475eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0642
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 4687971008595054, guid: ad69abc8597c85e419faf2f56af475eb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0928
+      value: -0.0917
       objectReference: {fileID: 0}
     - target: {fileID: 4687971008595054, guid: ad69abc8597c85e419faf2f56af475eb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1514,6 +1514,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
@@ -1561,6 +1576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
